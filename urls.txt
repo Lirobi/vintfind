@@ -1,0 +1,1 @@
+https://www.vinted.fr/catalog?catalog[]=1242&brand_ids[]=53&price_to=50&currency=EUR&status_ids[]=1

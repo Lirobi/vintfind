@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+
+    </style>
+    <head>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.js"> 
+    </script>
+
+
+		<meta name="description" content="VintFind - Bot Vinted gratuit et extrêmement rapide !">
+		<title>VintFind - Bot Vinted Gratuit</title
+		
+		<link rel="icon" type="image/png" href="../logo.png" />
+<meta name="a.validate.02" content="YvCgN-LzcXagyPBmWuItQEuQfRTspM44uMtk" />
+    
+<!--<script src="https://cdn.adf.ly/js/entry.js"></script>-->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2431492642839080"
+     crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../index.css"></link>
+        <script src="../index.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div id="main">
+            <button onclick="topFunction()" id="topbutton" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        <div id="div1"><h1>VintFind</h1></div>
+
+<a href="../index.html">Toutes les marques</a><br><br><br>
+<!--LA-->
+<brand id="brandlink" style="font-size:200%; position: relative;">Ralph Lauren</brand><br><br><br><br>
+<!--ICI-->
+
+                       
+                
+                        
+                
+                        
+                
+    
+            </div>
+             <div id="footer"></div>
+						 
+        </body>
+
+    <script>
+        var socket = io.connect('https://vintfind.fr:' + location.port);
+        socket.on('connect', function() {
+            console.log('Connected to server');
+        });
+        socket.on('reload_page', function() {
+            console.log('Reloading page');
+            location.reload();
+        });
+    </script>
+
+</html>

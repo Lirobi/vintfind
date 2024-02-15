@@ -1,0 +1,215 @@
+.url {
+	background-color:rgba(57,172,231, 0.5);
+	border-radius: 10px;
+	padding: 5px;
+	height: 50px;
+	width: 50%;
+	font-size: 160%;
+	color: white;
+	border: none;
+}
+#submit-url {
+	width: 10%;
+	height: 60px;
+	left: -20px;
+	position: relative;
+}
+#submit-url:hover {
+	cursor: pointer;
+}
+
+#brandlink {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#topbutton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+		animation-name:topbutton;
+		animation-duration: 1.5s;
+		animation-fill-mode: forwards;
+  }
+
+  #topbutton:hover {
+    background-color: #555;
+  }
+@keyframes topButton {
+        from {
+            transform: translateY(50px);
+        }  
+
+        to {
+            transform: translateY(0);
+        }
+        }
+
+#img{
+  background-color: rgba(57,172,231, 0.5);
+  border-radius: 25px;
+  padding: 10px;
+}
+        #div1 {
+        opacity: 0;
+        transform: translateY(-50px);
+        animation-name: slideInFromTop;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+      background-color: rgba(57,172,231, 0.5);
+      border-radius: 20px;
+      padding: -200px;
+        }
+
+        @keyframes slideInFromTop {
+        from {
+            opacity: 0.6;
+            transform: translateY(-50px);
+        }
+        70%{
+        opacity:0.8;
+      
+
+}
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+        body * {
+					margin: 0px;
+        }
+
+        @keyframes fadeIn {
+        from {
+            opacity: 0.4;
+        }
+        to {
+            opacity: 1;
+        }
+        }
+        body * {
+        /*opacity: 0;
+        animation-name: fadeIn;*/
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+        }
+
+
+        body {
+            scroll-behavior: smooth;
+            background-color: #121212;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 110%;
+            cursor: default;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 200%;
+            position: relative;
+        }
+        a:hover {
+            cursor: pointer;
+        }
+        a:hover::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        animation: underline 0.2s ease-out forwards;
+        }
+        img:hover {
+            cursor: pointer;
+        }
+        @keyframes underline {
+        from {
+            transform: scaleX(0);
+        }
+        to {
+            transform: scaleX(1);
+        }
+        }
+        body {
+            text-align: center;
+        } 
+        h1 {
+            font-size: 400%;
+        }
+        img {
+            width: 20%;
+        }
+        img:focus {
+            width: 70%;
+        }
+
+        @media screen
+        and (max-device-width: 480px)
+        and (orientation: portrait){
+        img {
+            width: 60%;
+        }
+        a {
+            font-size: 250%;
+          
+        }
+        #topbutton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 70px;
+    border: none;
+    outline: none;
+    background-color: rgba(57,172,231, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 50px;
+    border-radius: 20px;
+  }
+
+  #topbutton:hover {
+    background-color: rgba(57,172,231, 0.5);
+  }
+          #brandlink {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        #product_link {
+            background-color:rgba(57,172,231, 0.5);
+            border-radius: 20px;
+            padding: 5px;
+            padding-left: 5%;
+            padding-right: 5%;
+          font-size: 500%;
+        }
+        body {
+            text-align: center;
+        } 
+        h1 {
+            font-size: 800%;
+        }
+        
+        img:focus {
+            width: 90%;
+        }
+        
+        }
+
+     
